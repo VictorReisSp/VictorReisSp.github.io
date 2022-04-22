@@ -1,0 +1,88 @@
+/* MODULO: PERTO DE VOCÊ */
+
+/*
+ÁRVORE
+
+* 1.          BOX #NEARBY
+* 1.1             TITLE: 'PERTO DE VOCÊ'
+* 1.2             CARD'S
+* 1.2.1               BOX (imagem com kilometragem)
+* 1.2.1.1                 IMGS
+* 1.2.1.2                 TEXT: DISTANCE //KM
+* 1.2.2               TEXT 1: localName //nome do local  
+*/
+
+/*
+
+ROLAGEM HORIZONTAL
+
+
+
+*/
+
+#nearby__area {
+    padding: 16px 0 16px 0;
+    width: auto;
+}
+
+/*
+#nearby__titleArea { }
+*/
+
+#nearby__titleElement {
+    margin: 0 0 0 16px;
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.nearby__card__area {
+
+    display: flex;
+    overflow-x: auto;
+}
+.nearby__card { 
+
+
+    display:inline-block;
+    width: auto;
+    background-color: black;
+    padding: 16px;
+    border-radius: 24px;
+    margin: 0 5px 0 5px;
+
+    
+}
+.nearby__card__box {
+    position: relative;
+    border-radius: 24px;
+    overflow: hidden;
+    width: 118px;
+    height: 118px;
+    
+ }
+
+ .nearby__card__box__img {
+    width: 100%;
+    height: 100%;
+ }
+
+.nearby__card__box__distance {
+    position: absolute;
+    bottom: 10px; right: 10px;
+    margin: 0px;
+    background-color: #000;
+    padding: 5px 10px 5px 10px;
+    border-radius: 16px;
+    font-size: 14px;
+    font-weight: bold;
+    color:aliceblue
+}
+
+.nearby__card__localName {
+    color: aliceblue;
+    text-transform: capitalize;
+    font-weight: bolder;
+    font-size: 16px;
+    line-height: 16px;
+    margin:0;
+}

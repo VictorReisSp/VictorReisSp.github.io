@@ -1,0 +1,28 @@
+/* 
+ * HEADER 
+ 
+ * header
+ * > hello
+*/
+
+#header {
+    max-height: 168px;
+    padding: 16px;
+    display: flex;
+    /*
+    align-items: center;
+    */
+    flex-wrap:wrap;
+    justify-content:space-between;
+}
+    
+#header > #hello {
+    /* POSICIONAMENTO VERTICAL*/
+    font-size: 48px;
+    flex-basis: 100%;
+    margin:0px;
+}
+
+#header > p {
+    margin: 0;
+}

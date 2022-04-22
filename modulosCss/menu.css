@@ -1,0 +1,66 @@
+/*
+
+       <div id="menu__area">
+            <div id="menu__items">
+                <div id="menu__items__icon">
+
+                </div>
+                <div id="menu__items_text">
+
+                </div>
+            </div>
+        </div>
+
+*/
+
+.menu__area {
+
+    position: sticky; /* fixa o menu no topo */
+    top: 0;
+
+    background-color: black;
+    display: flex;
+    align-items: center;
+    padding: 7px 0 7px 0;
+    z-index: 1000;
+    justify-content: flex-end;
+}
+
+    .menu__item {
+        background-color: white;
+        border-radius: 10px;
+        width: 48px; height: 48px;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        margin: 0 5px 0 5px;
+     
+    }
+    /*
+        .menu__item__icon {
+   
+           
+        }
+        */
+            .menu__item__icon > span {
+                font-size: 36px;
+                color: black;
+            }
+
+        .menu__item__txt {
+            font-size: 12px;
+            font-weight: 900;
+            display: none;
+        }
+
+        .menu__item__user {
+            border-radius: 100px;
+            border: 5px solid white;
+            overflow: hidden;
+            
+        }
+        .menu__item__user > img {
+            width: 48px; height: auto;
+        }
