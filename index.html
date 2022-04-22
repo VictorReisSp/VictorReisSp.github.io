@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto</title>
+
+    <!-- MODULOS -->
+    <link rel="stylesheet" href="/style.css" >
+    <link rel="stylesheet" href="/reset.css" > 
+    <link rel="stylesheet" href="/modulosCss/menu.css" >
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" /> 
+
+    <!--MODULOS CSS -->
+    <link rel="stylesheet" href="/modulosCss/header.css" >
+    <link rel="stylesheet" href="/modulosCss/nearby.css" >
+    <link rel="stylesheet" href="/modulosCss/news.css" >
+
+    <script src="script.js"></script>
+</head>
+<body>
+    <!-- cabeçalho -->
+        <div id="header">
+            <h1 id="hello">Olá, Victor ;)</h1>
+            <p>#PARTIU cuidar do cabelo?</p>
+        </div>
+
+        <div class="divider--15"></div>
+
+    <!-- MENU -->
+        <div class="menu__area">
+
+            <div class="menu__item drt">
+                <div class="menu__item__icon">
+                    <span class="material-symbols-outlined">search</span>
+                </div>
+                <div class="menu__item__txt">
+                    buscar
+                </div>
+            </div>
+
+            <div class="menu__item menu__item__user">
+                <img src="data:image/jpeg;base64,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" alt="">
+            </div>
+
+        </div>
+
+        <div class="divider--10"></div>
+
+    <!-- news -->
+        <div id="news">
+            <h1>NEWS</h1>
+            <p>as novidades como promoções, eventos e novas lojas, seriam mostradas aqui como slides</p>
+        </div>
+
+        <div class="divider--15"></div>
+    <!-- NEARBY -->
+        <div id="nearby__area">
+
+            <div id="nearby__titleArea">
+                <p id="nearby__titleElement">Perto de você</p>
+            </div>
+            
+            <div class="divider--15"></div>
+            
+            <div class="nearby__card__area">
+
+                <div class="nearby__card">
+                    <div class="nearby__card__box"> <!-- esse elemento apresenta um comportamento irregular, aumentando o tamanho do seu pixel em 4 apósreceber uma imagem quadrada-->
+                        <img class="nearby__card__box__img" src="https://res.cloudinary.com/nextar/image/fetch/f_auto,fl_lossy,q_auto:good,w_1000,h_500,c_limit/https://assets.website-files.com/5361015192ee19db6f000b48/573c502f83c88fef3d81ede6_barbeariamoderna3.jpg">
+                        <p class="nearby__card__box__distance">2,5 km</p>
+                    </div>
+                    <div class="divider--10"></div>
+                    <p class="nearby__card__localName">nome do local</p>
+                </div>
+
+                <div class="nearby__card">
+                    <div class="nearby__card__box"> <!-- esse elemento apresenta um comportamento irregular, aumentando o tamanho do seu pixel em 4 apósreceber uma imagem quadrada-->
+                        <img class="nearby__card__box__img" src="https://res.cloudinary.com/nextar/image/fetch/f_auto,fl_lossy,q_auto:good,w_1000,h_500,c_limit/https://assets.website-files.com/5361015192ee19db6f000b48/573c502f83c88fef3d81ede6_barbeariamoderna3.jpg">
+                        <p class="nearby__card__box__distance">2,5 km</p>
+                    </div>
+                    <div class="divider--10"></div>
+                    <p class="nearby__card__localName">nome do local</p>
+                </div>
+
+                <div class="nearby__card">
+                    <div class="nearby__card__box"> <!-- esse elemento apresenta um comportamento irregular, aumentando o tamanho do seu pixel em 4 apósreceber uma imagem quadrada-->
+                        <img class="nearby__card__box__img" src="https://res.cloudinary.com/nextar/image/fetch/f_auto,fl_lossy,q_auto:good,w_1000,h_500,c_limit/https://assets.website-files.com/5361015192ee19db6f000b48/573c502f83c88fef3d81ede6_barbeariamoderna3.jpg">
+                        <p class="nearby__card__box__distance">2,5 km</p>
+                    </div>
+                    <div class="divider--10"></div>
+                    <p class="nearby__card__localName">nome do local</p>
+                </div>
+        
+        
+                <div class="nearby__card">
+                    <div class="nearby__card__box"> <!-- esse elemento apresenta um comportamento irregular, aumentando o tamanho do seu pixel em 4 apósreceber uma imagem quadrada-->
+                        <img class="nearby__card__box__img" src="https://res.cloudinary.com/nextar/image/fetch/f_auto,fl_lossy,q_auto:good,w_1000,h_500,c_limit/https://assets.website-files.com/5361015192ee19db6f000b48/573c502f83c88fef3d81ede6_barbeariamoderna3.jpg">
+                        <p class="nearby__card__box__distance">2,5 km</p>
+                    </div>
+                    <div class="divider--10"></div>
+                    <p class="nearby__card__localName">nome do local</p>
+                </div>
+      
+        
+                <div class="nearby__card">
+                    <div class="nearby__card__box"> <!-- esse elemento apresenta um comportamento irregular, aumentando o tamanho do seu pixel em 4 apósreceber uma imagem quadrada-->
+                        <img class="nearby__card__box__img" src="https://res.cloudinary.com/nextar/image/fetch/f_auto,fl_lossy,q_auto:good,w_1000,h_500,c_limit/https://assets.website-files.com/5361015192ee19db6f000b48/573c502f83c88fef3d81ede6_barbeariamoderna3.jpg">
+                        <p class="nearby__card__box__distance">2,5 km</p>
+                    </div>
+                    <div class="divider--10"></div>
+                    <p class="nearby__card__localName">nome do local</p>
+                </div>
+        
+                <div class="nearby__card">
+                    <div class="nearby__card__box"> <!-- esse elemento apresenta um comportamento irregular, aumentando o tamanho do seu pixel em 4 apósreceber uma imagem quadrada-->
+                        <img class="nearby__card__box__img" src="https://res.cloudinary.com/nextar/image/fetch/f_auto,fl_lossy,q_auto:good,w_1000,h_500,c_limit/https://assets.website-files.com/5361015192ee19db6f000b48/573c502f83c88fef3d81ede6_barbeariamoderna3.jpg">
+                        <p class="nearby__card__box__distance">2,5 km</p>
+                    </div>
+                    <div class="divider--10"></div>
+                    <p class="nearby__card__localName">nome do local</p>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="box--50px"></div>
+</body>
+</html>

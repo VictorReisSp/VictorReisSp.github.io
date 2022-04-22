@@ -1,0 +1,30 @@
+/* 
+Estou utilizando o conceito BEM para declarar a hierarquia das itens e seus modificados
+
+__ sub-itens
+-- modificadores
+*/
+
+/* PADRÃO DE ESTILOS*/
+* {
+    font-family: roboto,sans-serif;
+}
+
+/* DIVIDER */
+.divider--10 {
+    width: 100%;
+    height: 10px;
+}
+
+.divider--15 {
+    width: 100%;
+    height: 15px;
+}
+
+.box--50px {
+    height: 500px;
+    width: 100%;
+    background-color: white;
+}
+
+
